@@ -40,12 +40,7 @@ const Header = () => {
             </div>
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
-                <div>
-                  <Link className='d-flex align-items-center gap-10 text-white' to='/compare'>
-                    <img src='images/compare.svg' alt='' />
-                    <p className='mb-0'>Compare <br /> Products</p>
-                  </Link>
-                </div>
+               
                 <div>
                   <Link className='d-flex align-items-center gap-10 text-white' to='/wishlist'>
                     <img src='images/favorite.svg' alt='' />
@@ -95,7 +90,6 @@ const Header = () => {
                   <div className="d-flex align-items-center gap-15">
                     <NavLink className='text-white' to='/'>Home</NavLink>
                     <NavLink className='text-white' to='/store'>Our store</NavLink>
-                    <NavLink className='text-white' to='/blogs'>Blogs</NavLink>
                     <NavLink className='text-white' to='/contact'>Contact</NavLink>
                   </div>
                 </div>
