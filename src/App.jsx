@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route , } from 'react-router-dom'
 import Layout from './Components/Layout'
 import Home from './Pages/Home'
 import OurStore from './Pages/OurStore'
@@ -8,6 +8,7 @@ import Wishlist from './Pages/Wishlist'
 import CartPage from './Pages/CartPage'
 import Login from './Pages/Login'
 import Register from './Pages/Register'
+
 function App() {
 
 
